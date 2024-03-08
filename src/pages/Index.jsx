@@ -28,7 +28,7 @@ const Index = () => {
         </Box>
         <Stack spacing={3}>
           {newsItems.map((item) => (
-            <HStack key={item.id} p={4} bg={useColorModeValue("red.100", "red.700")} rounded="md" alignItems="center" justifyContent="space-between">
+            <HStack key={item.id} p={4} bg={useColorModeValue("gray.100", "gray.700")} rounded="md" alignItems="center" justifyContent="space-between">
               <VStack align="start">
                 <Link href={item.url} isExternal fontWeight="bold">
                   {item.title}
